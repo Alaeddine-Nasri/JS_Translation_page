@@ -27,6 +27,7 @@ nav{
 #logo{
     grid-column: 2/3;
     font-size: 24px;
+    text-align: left;
 }
 section {
     display: flex;
@@ -45,11 +46,11 @@ section {
     object-fit: cover;
 }
 .headline{
-    font-size: 100px;
+    font-size: 80px;
     position: absolute;
-    top: 70%;
-    left: 10%;
-    transform: translate(-20%,-70%);
+    top: 80%;
+    left: -8%;
+    transform: translate(-20%,-80%);
     color: white;
     z-index: 3;
 }
